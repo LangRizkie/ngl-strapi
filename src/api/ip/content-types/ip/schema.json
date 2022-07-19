@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ips",
+  "info": {
+    "singularName": "ip",
+    "pluralName": "ips",
+    "displayName": "ip",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bot": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "client": {
+      "type": "json"
+    },
+    "country": {
+      "type": "string"
+    },
+    "device": {
+      "type": "json"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "org": {
+      "type": "string"
+    },
+    "os": {
+      "type": "json"
+    },
+    "postal": {
+      "type": "biginteger",
+      "required": false
+    },
+    "region": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "my_userrname": {
+      "type": "string"
+    }
+  }
+}
